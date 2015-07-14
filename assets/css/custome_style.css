@@ -1,0 +1,136 @@
+
+.footer{
+	text-align: right !important;
+	text-font: #FFFFFF;
+}
+.v1_footer{
+	text-align: right !important;
+}
+.form_box_radius{
+	border-radius: 20px !important;
+}
+.login_logo{
+	margin-top: 25px !important;
+}
+.back_ground{
+	background-color: url("../images/background-color.jpg");
+}
+.menu_style{
+	background-color: #0F5682 !important;
+}
+.color_menu{
+	background-color: #0073CC !important;
+	margin-left: 0px !important;
+}
+.navbar navbar-inverse{
+	background-color: #52609C !important;
+}
+.header_style{
+	background-color: #06005A !important;
+}
+.header_welcome{
+	color: #FFFFFF !important;
+}
+.icon_key{
+	color: #FFFFFF !important;
+}
+.logout_style{
+	color: #99CCFF !important;
+}
+.lock_key{
+	color: #FFFFFF !important;
+}
+.navbar-inverse .brand, .navbar-inverse .nav > li > a {
+    color: #fff !important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.navbar-inverse .nav li.dropdown > .dropdown-toggle .caret {
+    border-bottom-color: #FFFFFF !important;
+    border-top-color: #fff !important;
+}
+a:focus {
+	  outline: thin dotted #333;
+	  outline: 5px auto -webkit-focus-ring-color;
+	  outline-offset: -2px;
+}
+/*table location tr*/
+#locations{
+	background-color: #6EA4DB !important;
+}
+#rooms{
+	background-color: #6EA4DB !important;
+}
+@media screen and (max-width: 300px) {
+   #rooms{
+	background-color: red !important;
+}
+}
+.span2 {
+    margin-top: -5px;
+    width: 140px;
+}
+.bg{
+	width:135px;
+	margin-buttom: 10px;
+}
+#users{
+	background-color: #6EA4DB !important;
+}
+/*.logo{
+	max-width: 50%;
+	margin-bottom: -10px;
+	margin-top: -10px;
+}*/
+tr th{
+	background-color: #6EA4DB !important;
+}
+
+@media only screen and (max-width: 800px) {
+    
+    /* Force table to not be like tables anymore */
+	#no-more-tables table, 
+	#no-more-tables thead, 
+	#no-more-tables tbody, 
+	#no-more-tables th, 
+	#no-more-tables td, 
+	#no-more-tables tr { 
+		display: block; 
+	}
+ 
+	/* Hide table headers (but not display: none;, for accessibility) */
+	#no-more-tables thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+ 
+	#no-more-tables tr { border: 1px solid #ccc; }
+ 
+	#no-more-tables td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+		white-space: normal;
+		text-align:left;
+	}
+ 
+	#no-more-tables td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 80%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		text-align:left;
+		font-weight: bold;
+	}
+ 
+	/*
+	Label the data
+	*/
+	#no-more-tables td:before { content: attr(data-title); }
+}

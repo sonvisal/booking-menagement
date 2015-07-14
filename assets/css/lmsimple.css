@@ -1,0 +1,118 @@
+html, body {
+    height: 100%;
+}
+
+#push,
+#footer {
+    height: 40px;
+}
+
+#footer {
+    border-top: 1px #e4e4e4 solid;
+    border-top-radius: 4px;
+    box-shadow: 0 0 6px #ccc;
+    padding: 10px;
+    background-color: #fff;
+}
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -40px;
+    background:url("http://3.bp.blogspot.com/-DohJ3dhYlEA/U-tH-H1Kp5I/AAAAAAAABG8/-Gn9hfQ8tbU/s1600/bg-alt.png");
+}
+
+.vertical-center {
+    min-height: 90%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+
+}
+
+form {
+    margin: 0px 80px 20px;
+}
+
+.form-box {
+    margin: 0 auto !important;
+    padding: 20px;
+    border: 1px #e4e4e4 solid;
+    border-radius: 10px;
+    box-shadow: 0 0 6px #ccc;
+    background-color: #fff;
+    background: #CCC url("http://3.bp.blogspot.com/-hGtL23wW4gM/VWZlzt4dDRI/AAAAAAAABiE/1Jnf61i6ijQ/s1600/login.jpg") center center no-repeat fixed;background-color: #fff;
+
+}
+#row_map{
+    float: right;
+}
+// style image map 
+#image_upload{
+     float:right;   
+     margin-right: 15%;
+     padding-top:10%;
+     width:200px;
+     
+    }
+#map-canvas {
+        width: 600px;
+        height: 310px;
+        float: right;
+      }
+#mapvalue{
+        height: auto;
+        float: right;
+        margin-top: -30%;
+ }
+#tb_map{
+        float:left; 
+        margin-top:20px;
+ }
+ @media screen and (max-width: 400px) {
+   #map-canvas {
+        width: 350px;
+        height: 200px;
+        float: right;
+      }
+  #mapvalue{
+        height: auto;
+        float: right;
+        margin-top: 10%;
+ }
+ #tb_map{
+        float:left; 
+        margin-top:10px;
+ }
+}
+@media all and (max-width: 499px) and (min-width: 401px) {
+ #mapvalue{
+        height: auto;
+        margin-top:10px;
+ }
+ #map-canvas {
+        width: 400px;
+        height: 250px;
+        float: right;
+      }
+     
+} 
+@media all and (max-width: 999px) and (min-width: 500px) {
+ #mapvalue{
+        height: auto;
+        margin-top: -32%;
+        padding-left: 15px;
+ }
+  #tb_map{
+       display:none;
+ }
+ #map-canvas {
+        width: 580px;
+        height: 260px;
+        float: right;
+      }
+} 
+// style upload image
+
+
+
